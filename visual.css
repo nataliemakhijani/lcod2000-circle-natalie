@@ -1,0 +1,48 @@
+/* stuff that i dont understand but it helps */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: blanchedalmond;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color:indianred;
+    margin: 0 auto;
+}
+
+h1 {
+    width: fit-content;
+    font-size: 48px;
+    border: 5px solid indianred;
+}
+
+a {
+    display: block; /* anything can be block or inline */
+    text-decoration-color: indianred;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    /* margin: 10px auto; */
+}
+
+button {
+    background-color: blanchedalmond;
+    border: 1px dashed indianred;
+    border-radius: 25px;
+}
+
+p>a {
+    display: inline;
+}
+
+
+.background-button-active {
+    background-color: blueviolet;   
+}
