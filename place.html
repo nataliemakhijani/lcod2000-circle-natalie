@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place</title>
+    <link rel="stylesheet" href="place.css">
 </head>
-<body>
-    place
+<body onload="initialize()">
+    <div class="sign">
+        <h1 class="content top-text">14 Street—<br>
+            Union Square</h1>
+        <div class="content bullets">
+            <div class="canarsie-bullet bullet">L</div>
+            <div class="bway-bullet bullet">N</div>
+            <div class="bway-bullet bullet">Q</div>
+            <div class="bway-bullet bullet">R</div>
+            <div class="bway-bullet bullet">W</div>
+            <div class="lex-bullet bullet">4</div>
+            <div class="lex-bullet bullet">5</div>
+            <div class="lex-bullet bullet">6</div>
+        </div>
+    </div>
+
+    <div class="metrocard">
+        <div class="metrocard-images">
+            <div class="metrocard-screen">
+                <p id="screen-text">
+                    12/04/24 03:08PM
+                </p>
+                <p class="metrocard-screen-caption">click the metrocard to swipe</p>
+            </div>
+            <div>
+                <img class="metrocard-svg" src="place-images/MetroCard.svg" onclick="swipeMetrocard()">
+            </div>
+        </div>
+        <img class="guide-image" src="place-images/guide.png" alt="">
+    </div>
+    <script src="place.js"></script>
 </body>
 </html>
