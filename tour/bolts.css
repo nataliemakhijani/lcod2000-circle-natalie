@@ -6,8 +6,13 @@ th {
     height: 7.5ch;
 }
 
+th>a {
+    background-color: white;
+    font-family: monospace;
+}
+
 table {
-    border: 10px solid yellow; 
+    border: 20px solid yellow; 
     background-color: aqua;
     border-radius: 15px;
 }
