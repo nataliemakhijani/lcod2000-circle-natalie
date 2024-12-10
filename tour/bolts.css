@@ -2,7 +2,7 @@ th {
     border: 1px solid darkblue;
     background-color: lightblue;
     border-radius: 5px;
-    width: 10ch;
+    min-width: 10ch;
     height: 7.5ch;
 }
 

@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+#gender {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+#poem {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+#atlas {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#computer {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+#restroom {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#bolts {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
