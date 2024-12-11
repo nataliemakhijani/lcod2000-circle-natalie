@@ -1,0 +1,33 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bolts {
+    position: absolute;
+    left:10%;
+    bottom: 10%;
+    font-size: larger;
+}
+
+#restroom {
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    font-size: x-small;
+}
+
+#gender {
+    position: absolute;
+    left:10%;
+    top: 40%;
+    font-size: small;
+}
+
+#front {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    font-size: x-large;
+}
